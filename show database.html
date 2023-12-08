@@ -1,0 +1,10 @@
+<h1>Members Database</h1>
+
+<ul>
+    {% for item in all %}
+    <strong>{{item.name }}  </strong><br>
+    <li>Email : {{item.email}}</li>
+    <li>Phone: {{item.phone}}</li>
+    <li>City : {{item.city}}</li><br><br>
+    {%endfor%}
+</ul>
