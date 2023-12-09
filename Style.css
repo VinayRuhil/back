@@ -1,0 +1,105 @@
+<style>
+    body {
+        font-family: 'Balsamiq Sans', cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/bg\ image.jpg') ;
+       
+
+        background-repeat: no-repeat;
+        background-size: 1456px;
+        background-size: cover;
+
+
+    }
+
+    .left {
+        position: absolute;
+        display: inline-block;
+        left: 60px;
+        top: 20px;
+        /* border: 2px solid green  */
+
+
+    }
+
+    .mid {
+        display: block;
+        width: 787px;
+        margin: 20px auto;
+        /* border: 2px solid green  */
+
+    }
+
+    .right {
+        position: absolute;
+        display: inline-block;
+        right: 34px;
+        top: 20px;
+
+        /* border: 2px solid yellow; */
+
+    }
+
+    .navbar {
+        display: inline-block;
+        color: white;
+
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+
+
+    }
+
+    .navbar li a:hover {
+        text-decoration: underline;
+        color: grey;
+    }
+
+    .left {
+        filter: invert(100%);
+
+    }
+
+    .left div {
+        color: black;
+        text-align: center;
+        font-size: 18px;
+        line-height: 12px;
+    }
+
+    .btn {
+        font-family: 'Balsamiq Sans', cursive;
+        margin: 0px 9px;
+        color: white;
+        background-color: black;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: gray
+    }
+
+    .container {
+        border: 2px solid red;
+        margin: 200px 100px;
+        padding: 45px;
+        width: 33%;
+        border-radius: 23px;
+        border-color: white;
+
+    }
